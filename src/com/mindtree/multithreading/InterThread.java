@@ -4,6 +4,8 @@ public class InterThread {
 
 	public static void main(String[] args) {
 
+		System.out.println("Hello to Github");
+		System.out.println("No one cares");
 		Q q = new Q();
 		new Producer(q);
 		new Consumer(q);
